@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/firstapp-dev',
+	db: 'mongodb://localhost/easyflow',
 	app: {
-		title: 'firstApp - Development Environment'
+		title: 'easyflow - Development Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
